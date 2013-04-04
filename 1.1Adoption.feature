@@ -6,7 +6,7 @@ Feature: assign adoption to fosterparents
  
 	Scenario: with just as many babies and fosterparents
 		Given an adoption agency
-		And 5 individual babies available by 'Jeugdzorg' #individual ivm twins in scenario 4
+		And 5 individual babies available by 'Jeugdzorg' #individual with regard to twins in scenario 4
 		And 5 fosterparents enrolled on 'Jeugdzorg'
 		When I populate the new_families #new: re-assigment in scenerio 5
 		Then every couple of fosterparents should have exactly 1 baby
@@ -28,7 +28,7 @@ Feature: assign adoption to fosterparents
 		Then each baby should be assigned to at most 1 fosterparents
 		And there should be 10 fosterparents with 0 babies
  
-	Scenario: with just as many babies and fosterparents # belang van het kind
+	Scenario: with just as many babies and fosterparents # in well being of child
 		Given an adoption agency
 		And 5 individual babies available by 'Jeugdzorg'
 		And 2 twins available by 'Jeugdzorg' #total = 9 children
@@ -42,7 +42,7 @@ Feature: assign adoption to fosterparents
 	Scenario: with less babies than fosterparents
 		Given an adoption agency
 		And 4 individual babies available by 'Jeugdzorg'
-		And 3 individual babies available by old_families #re-agginment
+		And 3 individual babies available by old_families #re-assignment
 		And 8 fosterparents enrolled on 'Jeugdzorg'
 		When I populate the new_families
 		Then each individual baby should be assigned to at most 1 fosterparents
