@@ -8,7 +8,7 @@ Feature: assign adoption to fosterparents
 		Given an adoption agency
 		And 5 individual babies available by 'Jeugdzorg' #individual with regard to twins in scenario 4
 		And 5 fosterparents enrolled on 'Jeugdzorg'
-		When I populate the new_families #new: re-assigment in scenerio 5
+		When I populate the new_families #new: re-assignment in scenerio 5
 		Then every couple of fosterparents should have exactly 1 baby
  
 	Scenario: with more babies than fosterparents
