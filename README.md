@@ -22,3 +22,5 @@ The four feature assignments are listed like this:
 1.2Cars -To rent a car to a customer
 1.3Books -To lend a book to a customer
 1.4Facebook -To reccomend new friends to a person on Facebook
+
+This project is brought to you by: Daan Smith and Anne-Claire van Keulen 
