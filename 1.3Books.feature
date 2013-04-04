@@ -1,6 +1,6 @@
 Feature: to lend a book to a customer
 
-  In order to lend out books
+  	In order to lend out books
 	As an employee of the library 'UBA'
 	I want to have an algorithm to do this for me
 
