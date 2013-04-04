@@ -2,7 +2,7 @@ Feature: assign adoption to fosterparents
  
   In order to assign adoption to fosterparents
   As an employee of 'Jeugdzorg'
-	I want to have an algortihm to do this for me
+  I want to have an algortihm to do this for me
  
 	Scenario: with just as many babies and fosterparents
 		Given an adoption agency
